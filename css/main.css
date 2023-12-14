@@ -348,6 +348,10 @@ h1{
     height: 3px;
     background: #D64374;
 }
+.product__item:hover > .product__navbar-link{
+    color: #000;
+    opacity: 1;
+}
 .product__navbar-link {
     color: #000;
     opacity: 0.6;
@@ -467,7 +471,6 @@ h1{
     border-radius: 5px;
     border: 2px solid #D23166;
     background: #FAFAFA;
-    margin-top: 90px;
 }
 .product__button {
     color: #FAFAFA;
